@@ -1,5 +1,5 @@
 import { Token } from 'tokenizr'
-import lexer, { TokenType } from './tokenize-prisma'
+import lexer, { TokenType } from './lexer'
 
 const TYPE_TO_CLASS: Record<TokenType, string> = {
   [TokenType.open_paren]: 'punct paren',
