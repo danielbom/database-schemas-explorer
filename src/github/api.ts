@@ -10,7 +10,7 @@ export class GithubApi {
       baseURL: 'https://api.github.com',
       timeout: 10000,
       headers: {
-        Authorization: `Bearer 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`,
+        Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
       },
     })
     if (debug) injectAxiosDebug(instance)

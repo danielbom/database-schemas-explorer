@@ -4,9 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "cli": "tsx cli/main.ts",
-    "start": "tsx server/main.ts",
-    "dev": "tsx watch server/main.ts"
+    "cli": "dotenv -- tsx cli/main.ts",
+    "start": "dotenv -- tsx server/main.ts",
+    "dev": "dotenv -- tsx watch server/main.ts"
   },
   "dependencies": {
     "@fastify/view": "^7.4.1",
@@ -14,6 +14,7 @@
     "@types/lodash": "^4.14.191",
     "axios": "^1.2.5",
     "commander": "^10.0.0",
+    "dotenv-cli": "^7.0.0",
     "fastify": "^4.12.0",
     "lodash": "^4.17.21",
     "pug": "^3.0.2",
