@@ -1,0 +1,188 @@
+{
+  "sha": "dd149c6a0b481b214d172661d92297dad444a6a8",
+  "url": "https://api.github.com/repos/nsigustavo/prisma/git/trees/dd149c6a0b481b214d172661d92297dad444a6a8",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a672271b1defb07536fb8f1f53b08ac11245ced",
+      "size": 30,
+      "url": "https://api.github.com/repos/nsigustavo/prisma/git/blobs/0a672271b1defb07536fb8f1f53b08ac11245ced"
+    },
+    {
+      "path": "README.rst",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "102ce3ccba54a314b46563a2411ce29b15d607e5",
+      "size": 437,
+      "url": "https://api.github.com/repos/nsigustavo/prisma/git/blobs/102ce3ccba54a314b46563a2411ce29b15d607e5"
+    },
+    {
+      "path": "prisma",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "af70a7f741c83d646d4f8170e4ee7f7c3a42b9ba",
+      "url": "https://api.github.com/repos/nsigustavo/prisma/git/trees/af70a7f741c83d646d4f8170e4ee7f7c3a42b9ba"
+    },
+    {
+      "path": "prisma/__init__.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d38187ec554235009d49b7435a5f40762ae5585b",
+      "size": 51,
+      "url": "https://api.github.com/repos/nsigustavo/prisma/git/blobs/d38187ec554235009d49b7435a5f40762ae5585b"
+    },
+    {
+      "path": "prisma/_test.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "7920c217fa8f55ee286f94f888818cfea3b2ac2d",
+      "size": 354,
+      "url": "https://api.github.com/repos/nsigustavo/prisma/git/blobs/7920c217fa8f55ee286f94f888818cfea3b2ac2d"
+    },
+    {
+      "path": "prisma/core.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e282c448176f537f91328cc2243371a1bdea0b6e",
+      "size": 3005,
+      "url": "https://api.github.com/repos/nsigustavo/prisma/git/blobs/e282c448176f537f91328cc2243371a1bdea0b6e"
+    },
+    {
+      "path": "prisma/diagramapic.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d7f541b45da7f9c77df71af04fd9fa646dba6659",
+      "size": 4371,
+      "url": "https://api.github.com/repos/nsigustavo/prisma/git/blobs/d7f541b45da7f9c77df71af04fd9fa646dba6659"
+    },
+    {
+      "path": "prisma/engenhariareversa.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "27651431b5ff7468eed0eb7e63acb6961d85211b",
+      "size": 8051,
+      "url": "https://api.github.com/repos/nsigustavo/prisma/git/blobs/27651431b5ff7468eed0eb7e63acb6961d85211b"
+    },
+    {
+      "path": "prisma/especificao",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "28329ef821fd8e81364e4660c12334cc99637a74",
+      "url": "https://api.github.com/repos/nsigustavo/prisma/git/trees/28329ef821fd8e81364e4660c12334cc99637a74"
+    },
+    {
+      "path": "prisma/especificao/Contexto.dt",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "cd5b61638422b106dd8a34607e63c7407d9aba9f",
+      "size": 1347,
+      "url": "https://api.github.com/repos/nsigustavo/prisma/git/blobs/cd5b61638422b106dd8a34607e63c7407d9aba9f"
+    },
+    {
+      "path": "prisma/especificao/DiagramaDeSequencia.dt",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f6a85ee9043932ad2a22f88b346a7df96c4c5d38",
+      "size": 989,
+      "url": "https://api.github.com/repos/nsigustavo/prisma/git/blobs/f6a85ee9043932ad2a22f88b346a7df96c4c5d38"
+    },
+    {
+      "path": "prisma/especificao/Filtro.dt",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "7800a214737000acff62bbb55fdb2a6590f00f72",
+      "size": 2256,
+      "url": "https://api.github.com/repos/nsigustavo/prisma/git/blobs/7800a214737000acff62bbb55fdb2a6590f00f72"
+    },
+    {
+      "path": "prisma/especificao/PicSequencia.dt",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a29a24161cf032cdbfb81cbb71bd3a5eff0c2411",
+      "size": 1190,
+      "url": "https://api.github.com/repos/nsigustavo/prisma/git/blobs/a29a24161cf032cdbfb81cbb71bd3a5eff0c2411"
+    },
+    {
+      "path": "prisma/especificao/Sinal.dt",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a60886e6bc2a54af26e74c3bd720b16927962cb7",
+      "size": 1431,
+      "url": "https://api.github.com/repos/nsigustavo/prisma/git/blobs/a60886e6bc2a54af26e74c3bd720b16927962cb7"
+    },
+    {
+      "path": "prisma/especificao/utils.dt",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "47608aea89a3c3fbfa8c9b8cf269341dbcf60465",
+      "size": 276,
+      "url": "https://api.github.com/repos/nsigustavo/prisma/git/blobs/47608aea89a3c3fbfa8c9b8cf269341dbcf60465"
+    },
+    {
+      "path": "prisma/exemplos",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6451f92074b89f6fedaa76ea37cd48cc7278d3b2",
+      "url": "https://api.github.com/repos/nsigustavo/prisma/git/trees/6451f92074b89f6fedaa76ea37cd48cc7278d3b2"
+    },
+    {
+      "path": "prisma/exemplos/BeautifulSoup.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05139e951edcd923c20f82ae309abece5f3f080e",
+      "size": 15206,
+      "url": "https://api.github.com/repos/nsigustavo/prisma/git/blobs/05139e951edcd923c20f82ae309abece5f3f080e"
+    },
+    {
+      "path": "prisma/exemplos/default.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ea7b4027952aaea04e54ab198e85441a48dc767",
+      "size": 2167,
+      "url": "https://api.github.com/repos/nsigustavo/prisma/git/blobs/7ea7b4027952aaea04e54ab198e85441a48dc767"
+    },
+    {
+      "path": "prisma/exemplos/diagramadesequenciasimples.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2572c6a8d5e23746555aa612d70d610f67f197f9",
+      "size": 4746,
+      "url": "https://api.github.com/repos/nsigustavo/prisma/git/blobs/2572c6a8d5e23746555aa612d70d610f67f197f9"
+    },
+    {
+      "path": "prisma/sequencia.pic",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "6caaa6ccb127c63df8cb9a341c6a822772812c61",
+      "size": 9914,
+      "url": "https://api.github.com/repos/nsigustavo/prisma/git/blobs/6caaa6ccb127c63df8cb9a341c6a822772812c61"
+    },
+    {
+      "path": "prisma/utils.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "79f5a1b92ec9d3598d0d9f9578b5ead82f925aad",
+      "size": 2287,
+      "url": "https://api.github.com/repos/nsigustavo/prisma/git/blobs/79f5a1b92ec9d3598d0d9f9578b5ead82f925aad"
+    },
+    {
+      "path": "setup.cfg",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "01bb954499e4eebf51604784cd75a64aa82b7b5a",
+      "size": 51,
+      "url": "https://api.github.com/repos/nsigustavo/prisma/git/blobs/01bb954499e4eebf51604784cd75a64aa82b7b5a"
+    },
+    {
+      "path": "setup.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "01a39a9d8b680a28ffbeb0342f5bfb39b5fde2b0",
+      "size": 833,
+      "url": "https://api.github.com/repos/nsigustavo/prisma/git/blobs/01a39a9d8b680a28ffbeb0342f5bfb39b5fde2b0"
+    }
+  ],
+  "truncated": false
+}

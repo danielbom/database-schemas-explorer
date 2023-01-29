@@ -1,0 +1,163 @@
+{
+  "sha": "fcd61e48b4388ebedb4f2eeca55c8967ebb7a1e4",
+  "url": "https://api.github.com/repos/engkiputrautama/crud-node-prisma/git/trees/fcd61e48b4388ebedb4f2eeca55c8967ebb7a1e4",
+  "tree": [
+    {
+      "path": ".env",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd0c246963f651c45f94b2db1aaeb50903620e36",
+      "size": 66,
+      "url": "https://api.github.com/repos/engkiputrautama/crud-node-prisma/git/blobs/dd0c246963f651c45f94b2db1aaeb50903620e36"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d238ba5f891458d1f1d1199fe640cbc1ea54a77",
+      "size": 65,
+      "url": "https://api.github.com/repos/engkiputrautama/crud-node-prisma/git/blobs/2d238ba5f891458d1f1d1199fe640cbc1ea54a77"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cbb99b2902d441d29492d4c8a87421bb4bacb0c",
+      "size": 2755,
+      "url": "https://api.github.com/repos/engkiputrautama/crud-node-prisma/git/blobs/2cbb99b2902d441d29492d4c8a87421bb4bacb0c"
+    },
+    {
+      "path": "SS-TugasWebLanjut",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1221c18341c198427bc64d81d7e6ce2c3edb9ea5",
+      "url": "https://api.github.com/repos/engkiputrautama/crud-node-prisma/git/trees/1221c18341c198427bc64d81d7e6ce2c3edb9ea5"
+    },
+    {
+      "path": "SS-TugasWebLanjut/Delete-Delete.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f64e2e6e74282ce340cd34ff4eea24a87740c41",
+      "size": 109598,
+      "url": "https://api.github.com/repos/engkiputrautama/crud-node-prisma/git/blobs/5f64e2e6e74282ce340cd34ff4eea24a87740c41"
+    },
+    {
+      "path": "SS-TugasWebLanjut/Get-Mahasiswa.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd992bcf9d4bdb364cb5f2878983b7b493fdde56",
+      "size": 110464,
+      "url": "https://api.github.com/repos/engkiputrautama/crud-node-prisma/git/blobs/cd992bcf9d4bdb364cb5f2878983b7b493fdde56"
+    },
+    {
+      "path": "SS-TugasWebLanjut/Post-Create.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9b9c24e339021e88177a60d3e46e13688bdbc0f",
+      "size": 120243,
+      "url": "https://api.github.com/repos/engkiputrautama/crud-node-prisma/git/blobs/d9b9c24e339021e88177a60d3e46e13688bdbc0f"
+    },
+    {
+      "path": "SS-TugasWebLanjut/Put-Update-Body.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a051a0d7ba74829a310a8fd289ee137cef81fa82",
+      "size": 109990,
+      "url": "https://api.github.com/repos/engkiputrautama/crud-node-prisma/git/blobs/a051a0d7ba74829a310a8fd289ee137cef81fa82"
+    },
+    {
+      "path": "SS-TugasWebLanjut/Put-Update-params.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ffde4bf1b70ecfc11b4d20170e398024b3a28b98",
+      "size": 112900,
+      "url": "https://api.github.com/repos/engkiputrautama/crud-node-prisma/git/blobs/ffde4bf1b70ecfc11b4d20170e398024b3a28b98"
+    },
+    {
+      "path": "SS-TugasWebLanjut/proses-clone-git.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "628ee7fd44412dcc65f3ffd710e59e092cae2de1",
+      "size": 193345,
+      "url": "https://api.github.com/repos/engkiputrautama/crud-node-prisma/git/blobs/628ee7fd44412dcc65f3ffd710e59e092cae2de1"
+    },
+    {
+      "path": "SS-TugasWebLanjut/proses-jalankan-file-serverjs.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d091ee0bbb8f91e1e29c3002c3228f3ca8a63da",
+      "size": 311371,
+      "url": "https://api.github.com/repos/engkiputrautama/crud-node-prisma/git/blobs/7d091ee0bbb8f91e1e29c3002c3228f3ca8a63da"
+    },
+    {
+      "path": "package-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07f0c927aa88f4a53c617390c28e255c65b011f5",
+      "size": 43033,
+      "url": "https://api.github.com/repos/engkiputrautama/crud-node-prisma/git/blobs/07f0c927aa88f4a53c617390c28e255c65b011f5"
+    },
+    {
+      "path": "package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17a4a82de63798bab432fc58b33695edc118e1c3",
+      "size": 665,
+      "url": "https://api.github.com/repos/engkiputrautama/crud-node-prisma/git/blobs/17a4a82de63798bab432fc58b33695edc118e1c3"
+    },
+    {
+      "path": "prisma",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c3a42a51ba20577f7f6c27f55462da65ddb1ec4f",
+      "url": "https://api.github.com/repos/engkiputrautama/crud-node-prisma/git/trees/c3a42a51ba20577f7f6c27f55462da65ddb1ec4f"
+    },
+    {
+      "path": "prisma/migrations",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "96045c704e269807b3ebfe283f6d0955516aa7de",
+      "url": "https://api.github.com/repos/engkiputrautama/crud-node-prisma/git/trees/96045c704e269807b3ebfe283f6d0955516aa7de"
+    },
+    {
+      "path": "prisma/migrations/20230125042217_kelompok1",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3e4af4a323f438d75d491a7342ebefa0101ddf8a",
+      "url": "https://api.github.com/repos/engkiputrautama/crud-node-prisma/git/trees/3e4af4a323f438d75d491a7342ebefa0101ddf8a"
+    },
+    {
+      "path": "prisma/migrations/20230125042217_kelompok1/migration.sql",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b4292bca3a9e417894ff287180ca98d72595fd5",
+      "size": 4929,
+      "url": "https://api.github.com/repos/engkiputrautama/crud-node-prisma/git/blobs/0b4292bca3a9e417894ff287180ca98d72595fd5"
+    },
+    {
+      "path": "prisma/migrations/migration_lock.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5a788a7af8fecc0478ef418b8e95c2cf2bbffdf",
+      "size": 121,
+      "url": "https://api.github.com/repos/engkiputrautama/crud-node-prisma/git/blobs/e5a788a7af8fecc0478ef418b8e95c2cf2bbffdf"
+    },
+    {
+      "path": "prisma/schema.prisma",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29f5f702ffca69111222be59d0b4ba17a507ad1e",
+      "size": 1437,
+      "url": "https://api.github.com/repos/engkiputrautama/crud-node-prisma/git/blobs/29f5f702ffca69111222be59d0b4ba17a507ad1e"
+    },
+    {
+      "path": "server.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab0f4686c2f30d6b46390dc0ebdd29ecd174e6b2",
+      "size": 2341,
+      "url": "https://api.github.com/repos/engkiputrautama/crud-node-prisma/git/blobs/ab0f4686c2f30d6b46390dc0ebdd29ecd174e6b2"
+    }
+  ],
+  "truncated": false
+}

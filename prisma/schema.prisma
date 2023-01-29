@@ -1,0 +1,52 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Repository {
+  id                Int         @id @default(autoincrement())
+  name              String
+  owner             String
+  full_name         String      @unique
+  html_url          String
+  description       String?
+  url               String
+  contents_url      String
+  created_at        DateTime
+  updated_at        DateTime
+  pushed_at         DateTime
+  size              Int
+  stargazers_count  Int
+  watchers_count    Int
+  language          String?
+  forks_count       Int
+  archived          Boolean
+  disabled          Boolean
+  open_issues_count Int
+  license           String?
+  allow_forking     Boolean
+  topics            String?
+  open_issues       Int
+  watchers          Int
+  default_branch    String
+  score             Float
+  raw_request       String
+  FilesTree         FilesTree[]
+}
+
+model FilesTree {
+  id           Int        @id @default(autoincrement())
+  path         String
+  mode         String
+  type         String
+  sha          String
+  size         Int?
+  url          String
+  content      String?
+  repositoryId Int
+  repository   Repository @relation(fields: [repositoryId], references: [id])
+}
