@@ -59,6 +59,7 @@ div[class*='language-'] {
   color: #9cfd98;
 }
 
+.token.boolean,
 .token.number {
   color: #d19a66;
 }

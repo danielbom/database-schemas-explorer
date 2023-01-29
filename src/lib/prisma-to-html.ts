@@ -14,6 +14,7 @@ const TYPE_TO_CLASS: Record<TokenType, string> = {
   [TokenType.required]: 'required',
   [TokenType.equal]: 'punct',
   [TokenType.comment]: 'comment',
+  [TokenType.boolean]: 'boolean',
   [TokenType.string]: 'string',
   [TokenType.number]: 'number',
   [TokenType.keyword]: 'keyword',
@@ -25,9 +26,6 @@ const TYPE_TO_CLASS: Record<TokenType, string> = {
   [TokenType.new_line]: '',
   [TokenType.EOF]: '',
 }
-
-const OPEN_GROUP = new Set([TokenType.open_brace, TokenType.open_bracket, TokenType.open_paren])
-const CLOSE_GROUP = new Set([TokenType.close_brace, TokenType.close_bracket, TokenType.close_paren])
 
 export function prismaToHtml(content: string) {
   lexer.input(content)
@@ -59,18 +57,18 @@ export function prismaToHtml(content: string) {
 
       if (tokenType === TokenType.keyword) {
         lastGroupToken = token
-      }
-
-      if (OPEN_GROUP.has(tokenType as TokenType)) {
+      } else if (tokenType === TokenType.open_brace) {
         groupTokens.push(lastGroupToken!)
-      } else if (CLOSE_GROUP.has(tokenType as TokenType)) {
+      } else if (tokenType === TokenType.close_brace) {
         groupTokens.pop()
         lastGroupToken = groupTokens.length > 0 ? groupTokens[groupTokens.length - 1] : null
       }
 
       if (typeClass) {
-        lastToken = token
-        lineTokens.push(token)
+        if (!typeClass.includes('punct')) {
+          lastToken = token
+          lineTokens.push(token)
+        }
       }
     })
 
